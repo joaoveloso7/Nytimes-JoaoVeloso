@@ -1,9 +1,9 @@
 import React from 'react';
-import '../Gray-line/Gray-line.css';
+import './Line.css';
 
 
 
-export default () => {
+export default function Line() {
 
     return (
         <div className="gray-line">

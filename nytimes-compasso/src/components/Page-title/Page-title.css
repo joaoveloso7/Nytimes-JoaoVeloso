@@ -1,0 +1,11 @@
+.pagetitle {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pagetitle h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Roboto;
+    font-size: 5rem;
+}

@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/Header/Header.js';
-import Grayline from './components/Gray-line/Gray-line.js';
+import Line from './components/Line/Line.js';
+import PageTitle from './components/Page-title/Page-title.js'
+import MenuNav from './components/Menu-nav/Menu-nav.js'
 
 function App() {
 
@@ -10,7 +12,11 @@ function App() {
     <div className="App">
 
       <Header />
-      <Grayline />
+      <Line />
+      <MenuNav />
+      <PageTitle title="NEWS" />
+      <Line />
+
 
     </div>
   );

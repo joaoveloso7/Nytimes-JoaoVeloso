@@ -1,0 +1,23 @@
+* {
+    --gray-light: #e5e5e5;
+    --gray-dark: #747474;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 60%;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer
+}
+
+ul,
+li {
+    list-style: none;
+
+}

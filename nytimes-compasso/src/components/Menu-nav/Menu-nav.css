@@ -1,0 +1,21 @@
+.menunav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    font-size: 2.8rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a+a {
+    margin-left: 3rem;
+}
