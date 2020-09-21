@@ -1,68 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Aplicacao (NY TIMES - Compasso)
 
-## Available Scripts
+Este projeto foi desenvolvido com o [Create React App](https://github.com/facebook/create-react-app).
+O projeto visa consumir a API do New York Times e exibir as notícias em tela separando por seções (Home, Science e Technology), quando o usuário clicar em uma notícia irá aparecer um Modal apresentando todas as informações sobre aquela notícia inclúsive seu URL, foi adicionado também uma função para mostrar em tela a data como no site do NY Times original(https://www.nytimes.com/).
 
-In the project directory, you can run:
+Link para protótipo navegável: https://www.figma.com/proto/FZ7B9tJJNWrUfSChAi8FXH/nytimes-uolcompasso?node-id=2%3A211&viewport=642%2C324%2C0.2702597677707672&scaling=scale-down-width
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Tabela de conteúdos
+=================
+<ul>
+ <li>Status </li>
+ <li>Features </li> 
+ <li>Pre-Requisitos </li>  
+ <li>Tecnologias  </li>
+ <li>Autor </li>
+ <li>Licença  </li>
+</ul>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Status do Projeto
 
-### `npm test`
+Aplicação React (NYTIMES-Compasso-Frontend-Test) Concluída.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- [x] Componente Header (Cabeçalho)
+- [x] Componente Line  (Linha separadora)
+- [x] Componente Menu-nav (Menu de navegação)
+- [x] Componente News-card (Cartões de notícias recebendo valores da API)
+- [x] Componente News-list (Consumindo API do NYTimes)
+- [x] Componente Page-title (Título da Página dinâmico)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Node.js](https://nodejs.org/en/). 
+ 
+- Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### `npm run eject`
+- Após clonar o repositório(https://github.com/joaoveloso7/Nytimes-JoaoVeloso) abrir pasta do projeto no
+seu editor de código e no seu terminal rodar o comando `npm start` navegue para o `[http://localhost:3000]`
+e o aplicativo irá automaticamente carregar.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Tecnologias utilizadas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://github.com/facebook/create-react-app)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Autor
 
-## Learn More
+João Veloso
+- Email: joaoobr@hotmail.com / meridyxd@gmail.com
+- Telefone: (81)99618-8045
+- [Linkedin](https://www.linkedin.com/in/joaoveloso13051995/)
+- [Behance](https://www.behance.net/jaumveloso1)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
+IT License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Copyright (c) <2020> <JoãoVeloso>
 
-### Analyzing the Bundle Size
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Making a Progressive Web App
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
