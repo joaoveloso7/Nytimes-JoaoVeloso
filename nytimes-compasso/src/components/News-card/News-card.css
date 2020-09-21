@@ -1,0 +1,24 @@
+.card {
+    width: 30%;
+    margin: 1.5% 1.5% 1.5% 0;
+
+}
+
+ul li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li h1 {
+
+    cursor: pointer;
+
+    max-width: 400px;
+    font-size: 2.5rem;
+}
+
+ul li p {
+    max-width: 400px;
+    color: var(--gray-dark);
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
