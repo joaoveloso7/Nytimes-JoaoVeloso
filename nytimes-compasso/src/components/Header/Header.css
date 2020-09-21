@@ -14,7 +14,7 @@ header {
 
 .date-time p {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     padding-bottom: 0.5rem;
     font-size: 1.5rem;
 }

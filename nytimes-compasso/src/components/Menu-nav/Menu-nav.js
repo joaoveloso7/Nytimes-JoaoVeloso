@@ -6,6 +6,7 @@ export default function MenuNav(props) {
 
     const links = [{ id: "home", name: "Home" }, { id: "science", name: "Science" }, { id: "technology", name: "Technology" }]
 
+
     return (
 
         <div className="menunav">
@@ -17,6 +18,8 @@ export default function MenuNav(props) {
                 })
                 }
             </nav>
+
+
         </div>
 
 
