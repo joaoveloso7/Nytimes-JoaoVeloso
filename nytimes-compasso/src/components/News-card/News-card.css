@@ -21,4 +21,10 @@ ul li p {
     color: var(--gray-dark);
     font-size: 1.8rem;
     margin-top: 1rem;
+
+    cursor: pointer;
+}
+
+ul li:hover {
+    text-decoration: underline;
 }

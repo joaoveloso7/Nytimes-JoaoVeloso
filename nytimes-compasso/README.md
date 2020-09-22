@@ -29,6 +29,7 @@ Aplicação React (NYTIMES-Compasso-Frontend-Test) Concluída.
 - [x] Componente News-card (Cartões de notícias recebendo valores da API)
 - [x] Componente News-list (Consumindo API do NYTimes)
 - [x] Componente Page-title (Título da Página dinâmico)
+- [x] Componente Modal (Modal com links)
 
 
 ### Pré-requisitos

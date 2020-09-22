@@ -11,7 +11,7 @@ function App() {
   const [category, newCategory] = useState('home');
 
 
-  const teste = (event) => {
+  const handleNav = (event) => {
     newCategory(event.target.innerHTML.toLowerCase());
   }
 
@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Line />
 
-      <MenuNav testFunction={teste} />
+      <MenuNav navigation={handleNav} />
       <Line color="black" />
       <br />
       <Line color="black" />
