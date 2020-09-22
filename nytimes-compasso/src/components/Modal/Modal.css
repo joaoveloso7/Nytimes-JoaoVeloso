@@ -1,7 +1,7 @@
 .modal {
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
@@ -92,6 +92,17 @@
 .content a {
     color: var(--gray-dark);
     text-decoration: underline;
+    max-width: 60%;
     margin-left: 3%;
     font-size: 1.8rem;
+}
+
+@media (max-width:1200px) {
+
+
+    .modal .container {
+        width: 90%;
+        height: 70%;
+    }
+
 }
